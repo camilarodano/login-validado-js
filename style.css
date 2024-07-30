@@ -1,0 +1,76 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(https://images.unsplash.com/photo-1706941246318-11a186adcfda?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    font-size: 15px;
+    font-weight: 600px;
+    margin: 10px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.521);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 15px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 350px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+
+input[type="submit"]{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.748);
+    cursor: pointer;
+    border-color: rgb(255, 255, 255);
+    transition: all .3s ease;
+}
+
+input[type="submit"]:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
+
+
+.error-message{
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#show-hide{
+    color: rgb(102, 100, 100);
+    position: relative;
+    top: -10px;
+    float: right;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition: all .3s ease;
+}
+
+#show-hide:hover{
+    border-bottom: 1px solid rgb(188, 184, 184);
+    color: rgb(53, 53, 53);
+}
